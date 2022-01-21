@@ -1,0 +1,24 @@
+:root {
+  --default-body-background: #eef;
+  --default-border-radius: 5px;
+  --default-font-family: monospace;
+  --default-font-size: 18px;
+  --default-padding: 5px;
+}
+
+body {
+  background: var(--default-body-background);
+
+  font-family: var(--default-font-family);
+  font-size: var(--default-font-size);
+}
+
+input {
+  font-family: var(--default-font-family);
+}
+
+.container {
+  background: white;
+
+  border-radius: var(--default-border-radius);
+}
